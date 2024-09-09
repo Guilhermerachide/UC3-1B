@@ -8,8 +8,10 @@ Aprendi sobre strings variaveis e sobre o densvolvimento de caixa de pesquisas e
 
 
 ## Atividades desenvolvidas
-Fiz um video sobvre conhecimento de strings e number
-
+Fiz um video sobvre conhecimento de 
+strings:(https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String) 
+e number:(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+INFORMAÇÕES E CODIGOS QUE PODEM SER UTILIZADOS EM BAIXO EXEMPLOS DE CODIGOS
 strings
 
 var a = "a";
@@ -19,6 +21,8 @@ if (a < b)
   print(a + " é menor que " + b);
 else if (a > b) print(a + " é maior que " + b);
 else print(a + " e " + b + " são iguais.");
+
+
 
 number
 Number("123"); // returns the number 123
