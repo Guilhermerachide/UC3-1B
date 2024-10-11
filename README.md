@@ -71,3 +71,18 @@ case 21:
 }
 }
 ```
+e outra atividade de função 
+```JS
+function soma (num1, num2) {
+  console.log(num1 + num2)
+  }
+console.log(soma(7, 2))
+
+const compra1 = prompt("qual o valor da primeira compra?")
+const compra2 = prompt("qual o valor da segunda compra?")
+
+if(compra1 > compra2) {
+  console.log(soma(compra1, compra2))
+  }else if(crompa1, compra2) {
+    } else {
+```
