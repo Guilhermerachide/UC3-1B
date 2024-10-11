@@ -31,3 +31,43 @@ Number("123") === 123; // true
 
 Number("unicorn"); // NaN
 Number(undefined); // NaN
+```
+Fizemos atividades avaliativas referente a construção de um jogo simples através de codigos 
+
+ e fizemos outras atividades como
+ ```JS
+
+function feriadosMes() {
+  
+let mes = prompt("Digite o dobro do número do mês (11-22):");
+
+ mes = parseInt(mes);
+  
+switch (mes) {
+ case 11:
+  return "Janeiro: 01 - Confraternização Universal";
+case 12:
+return "Feveiro: Carnaval (fileicidade do aluno varia)";
+ case 13:
+ return "Março: Não possu a felicidade do aluno";
+case 14:
+ return "Abril: 21 - Dia do Tiradentes";
+ case 15:
+ return "Maio: 01 - Dia do Trabalho (aluno não traballa mas descansa)";
+ case 16:
+ return "Junho: Corpus Christi (felicidade do aluno varia)";
+case 17:
+ return "Julho: Não possui a felicidade do aluno";
+case 18:
+ return "Agosto: Não possui felicidade";
+ case 19:
+  return "Setembro: 07 - Independencia do Brasil todos nos somos humanos";
+ case 20:
+ return "Outubro: 12 - Nossa Senhora Aparecida";
+case 21:
+    return "Novembro: 02 - Finados, 15 - Plocamação da República";
+ case 22:
+   return "Dezembro: 25 -Natal melhor dia de todos";
+}
+}
+```
